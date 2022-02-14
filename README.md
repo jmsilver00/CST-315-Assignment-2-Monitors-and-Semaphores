@@ -1,11 +1,13 @@
 To compile and run code:
 
 For the semaphore program readwriteSem.c
+
 Compile: gcc readwriteSem.c -pthread
 
 Run: ./a.out
 
 For the monitor program readwriteMon.cpp
+
 Compile: g++ -o mon -pthread readwriteMon.cpp
 
 Run: ./mon
