@@ -1,13 +1,12 @@
 To compile and run code:
 
 For the semaphore program readwriteSem.c
-gcc readwriteSem.c -pthread
-./a.out
+Compile: gcc readwriteSem.c -pthread
+Run: ./a.out
 
 For the monitor program readwriteMon.cpp
-g++ -o gfg -pthread readwriteMon.cpp
-./gfg
-
+Compile: g++ -o mon -pthread readwriteMon.cpp
+Run: ./mon
 
 In this assignment we addressed the reader-writer problem. The reader writer problem can be summarized as multiple processes attempting to share an object, in this case the processes are the readers and writers. The problem deals with synchronization, the program shares a set of data among the process where only one writer can write at a time and if a single reader is reading than no writing can occur. 
 
